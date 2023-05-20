@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900px;
+    font-style: italic;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+
+}
